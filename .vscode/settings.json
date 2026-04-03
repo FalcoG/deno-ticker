@@ -1,0 +1,9 @@
+{
+    "deno.unstable": [
+        "kv"
+    ],
+    "deno.env": {
+        "DENO_KV_ACCESS_TOKEN": "REPLACEME",
+        "PROJECT_KV_PATH": ":memory:"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --unstable-kv --allow-env --allow-net=truenas.local:4512,0.0.0.0:8000 main.ts",
+    "start": "deno run --unstable-kv --allow-env --allow-net main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
